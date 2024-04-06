@@ -98,9 +98,14 @@ footer li{
 }
 
 .active-nav{
-    background-color: rgba(31, 66, 62, 1);
-    color: rgba(222, 222, 222, 1);
-    border-radius: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgba(31, 66, 62, 1);
+}
+
+.hover-nav:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(31, 66, 62, 1);
+    cursor: pointer;
 }
 
 /*Checkout success*/
