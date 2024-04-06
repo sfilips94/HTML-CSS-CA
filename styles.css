@@ -1,0 +1,269 @@
+/*General*/
+
+main{
+    background-color: rgba(222, 222, 222, 1);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    background-color: rgba(217, 172, 37, 1);
+    color: rgba(31, 66, 62, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+nav li{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+nav{
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(31, 66, 62, 1);
+}
+
+.logo{
+    width:210px;
+    height: 100px;
+}
+
+footer{
+
+    background-color: rgba(217, 172, 37, 1);
+    color: rgba(31, 66, 62, 1);
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: auto;
+}
+
+footer ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+footer h3{
+    margin-top: 70px;
+    font-size: 32px;
+    margin-bottom: -5px;
+}
+
+footer li{
+    padding: 4px;
+}
+
+.header-icon{
+    height: 32px;
+    width: 32px;
+    color:rgba(31, 66, 62, 1);
+    padding: 4px;
+}
+
+.icons{
+    margin-right: 70px;
+}
+
+.social-media-icon{
+    padding: 10px;
+    height: 32px;
+    width: 32px;
+}
+
+.footer-li{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.active-nav{
+    background-color: rgba(31, 66, 62, 1);
+    color: rgba(222, 222, 222, 1);
+    border-radius: 10px;
+}
+
+/*Checkout success*/
+
+.checkout-success-h1{
+    margin: 0;
+    font-size: 32px;
+}
+
+.order-confirmation{
+    font-size: 20px;
+}
+
+.cta-checkout-success{
+    background-color: rgba(95, 173, 86, 1);
+    padding: 10px 30px;
+    font-size: 28px;
+    color: black;
+    border-radius: 30px;
+}
+
+.cta-checkout-success:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.checkout-success-checkmark{
+    width: 92px;
+    height: 92px;
+    color: rgba(95, 173, 86, 1);
+    border-radius: 46px;
+    border: 1px solid rgba(95, 173, 86, 1);;
+
+}
+
+.checkout-success-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-success-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*About Us*/
+
+.about-image{
+    width: 1235px;
+    height: 517px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.h1-about-us{
+    margin: 0px;
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 36px;
+}
+
+.h2-about-us{
+    text-align: center;
+    font-size: 32px;
+}
+
+.article-about-us{
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+/*Contact Us*/
+
+.form-input{
+    display: block;
+    background-color: rgba(222, 222, 222, 1);
+    width: 400px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.h1-contact{
+    font-size: 32px;
+    text-align: center;
+}
+
+.h2-contact{
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+label{
+    font-size: 15px;
+}
+
+.description-contact{
+    width: 400px;
+}
+
+.cta-contact-us{
+    background-color: rgba(95, 173, 86, 1);
+    padding: 10px 60px;
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.cta-contact-us:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*Contact Us*/
+
+.product-img-shop{
+    width: 70%;
+    height: 50%;
+    border: 1px solid black;
+    object-fit: contain;
+}
+
+.product-name-shop{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.product-price-shop{
+    font-size: 24px;
+    font-weight: lighter
+}
+
+.cta-shop{
+    background-color: rgba(95, 173, 86, 1);
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+
+.cta-shop:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.grid-container-shop{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 40px;
+
+    }
