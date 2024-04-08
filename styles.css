@@ -1,6 +1,6 @@
 /*General*/
 
-main{
+main {
     background-color: rgba(222, 222, 222, 1);
     margin: 0;
     padding: 0;
@@ -9,12 +9,12 @@ main{
     flex-direction: column;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     height: 100px;
     background-color: rgba(217, 172, 37, 1);
     color: rgba(31, 66, 62, 1);
@@ -25,28 +25,28 @@ header{
 
 }
 
-nav li{
+nav li {
     display: inline-block;
-    font-size: 26px;
+    font-size: 1.5rem;
     font-weight: 700;
     padding: 8px;
 }
 
-nav{
+nav {
     flex: 1;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgba(31, 66, 62, 1);
 }
 
-.logo{
-    width:210px;
-    height: 100px;
+.logo {
+    width: 10%;
+    
 }
 
-footer{
+footer {
 
     background-color: rgba(217, 172, 37, 1);
     color: rgba(31, 66, 62, 1);
@@ -57,52 +57,53 @@ footer{
     padding: 10px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    
+    margin-top: auto;
+
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-footer h3{
+footer h3 {
     margin-top: 70px;
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: -5px;
 }
 
-footer li{
+footer li {
     padding: 4px;
 }
 
-.header-icon{
+.header-icon {
     height: 32px;
     width: 32px;
-    color:rgba(31, 66, 62, 1);
+    color: rgba(31, 66, 62, 1);
     padding: 4px;
 }
 
-.icons{
+.icons {
     margin-right: 70px;
 }
 
-.social-media-icon{
+.social-media-icon {
     padding: 10px;
     height: 32px;
     width: 32px;
 }
 
-.footer-li{
-    font-size: 26px;
+.footer-li {
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
-.active-nav{
+.active-nav {
     text-decoration: underline;
     text-decoration-color: rgba(31, 66, 62, 1);
 }
 
-.hover-nav:hover{
+.hover-nav:hover {
     text-decoration: underline;
     text-decoration-color: rgba(31, 66, 62, 1);
     cursor: pointer;
@@ -110,28 +111,28 @@ footer li{
 
 /*Checkout success*/
 
-.checkout-success-h1{
-    font-size: 32px;
+.checkout-success-h1 {
+    font-size: 2.5rem;
 }
 
-.order-confirmation{
-    font-size: 20px;
+.order-confirmation {
+    font-size: 1.5rem;
 }
 
-.cta-checkout-success{
+.cta-checkout-success {
     background-color: rgba(95, 173, 86, 1);
     padding: 10px 30px;
-    font-size: 28px;
+    font-size: 2rem;
     color: black;
     border-radius: 30px;
 }
 
-.cta-checkout-success:hover{
+.cta-checkout-success:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.checkout-success-checkmark{
+.checkout-success-checkmark {
     width: 92px;
     height: 92px;
     color: rgba(95, 173, 86, 1);
@@ -140,13 +141,13 @@ footer li{
 
 }
 
-.checkout-success-flex{
+.checkout-success-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.checkout-success-section{
+.checkout-success-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +156,7 @@ footer li{
 
 /*About Us*/
 
-.section-about-flex{
+.section-about-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,75 +164,75 @@ footer li{
     margin: 5%;
 }
 
-.about-image{
+.about-image {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 
-.article-about-us{
+.article-about-us {
     line-height: 35px;
-    font-size: 20px;
+    font-size: 1.5rem;
     width: 70%;
 }
 
-.h1-about-us{
-    font-size: 36px;
+.h1-about-us {
+    font-size: 2.5rem;
     position: relative;
     left: 5%;
 }
 
-.h2-about-us{
-    font-size: 32px;
+.h2-about-us {
+    font-size: 2rem;
 }
 
 /*Contact Us*/
 
-.form-input{
+.form-input {
     display: block;
     background-color: rgba(222, 222, 222, 1);
-    width: 400px;
-    height: 25px;
+    width: 25rem;
+    height: 1rem;
     border: 1px solid black;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-bottom: 8px;
 }
 
-.h1-contact{
-    font-size: 32px;
+.h1-contact {
+    font-size: 2rem;
 }
 
-.h2-contact{
-    font-size: 24px;
+.h2-contact {
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
-form label{
-    font-size: 15px;
+form label {
+    font-size: 1rem;
 }
 
-.description-contact{
+.description-contact {
     padding-bottom: 100px;
     margin-bottom: 20px;
 }
-    
 
-.cta-contact-us{
+
+.cta-contact-us {
     background-color: rgba(95, 173, 86, 1);
     padding: 10px 60px;
     border-width: 0px;
     border-radius: 10px;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: lighter;
 }
 
-.cta-contact-us:hover{
+.cta-contact-us:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.section-contact-flex{
+.section-contact-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,37 +242,37 @@ form label{
 
 /*Shop*/
 
-.product-img-shop{
+.product-img-shop {
     width: 70%;
     height: 50%;
     border: 1px solid black;
     object-fit: contain;
 }
 
-.product-name-shop{
-    font-size: 28px;
+.product-name-shop {
+    font-size: 2rem;
     font-weight: bold;
 }
 
-.product-price-shop{
-    font-size: 24px;
+.product-price-shop {
+    font-size: 1.5rem;
     font-weight: lighter
 }
 
-.cta-shop{
+.cta-shop {
     background-color: rgba(95, 173, 86, 1);
-    font-size: 24px;
+    font-size: 1.5rem;
     border: none;
     border-radius: 20px;
     padding: 5px 30px;
 }
 
-.cta-shop:hover{
+.cta-shop:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.grid-container-shop{
+.grid-container-shop {
     padding: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -281,13 +282,13 @@ form label{
 
 /*Homepage*/
 
-.banner-index{
+.banner-index {
     position: relative;
     height: 500px;
     width: 50%;
 }
 
-.banner-image{
+.banner-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -295,117 +296,117 @@ form label{
     border-radius: 30px;
 }
 
-.banner-content{
+.banner-content {
     position: absolute;
     inset: 0;
     padding: 0.5 rem;
     display: flex;
     align-items: start;
     justify-content: center;
-    font-size: 22px;
+    font-size: 1.5rem;
     color: white;
-    }
+}
 
-  .index-image{
+.index-image {
     width: 50%;
     height: 500px;
     object-fit: cover;
     object-position: center;
     border-radius: 30px;
-  }
+}
 
-  .h1-index{
+.h1-index {
     background-color: rgba(217, 172, 37, 1);
     color: rgba(31, 66, 62, 1);
-    font-size: 35px;
+    font-size: 2.5rem;
     width: 50%;
     height: 50px;
     margin-top: 50px;
-  }
+}
 
-  .h2-index{
+.h2-index {
     background-color: rgba(179, 40, 33, 1);
     color: white;
-    font-size: 35px;
+    font-size: 2.5rem;
     text-align: right;
     width: 50%;
     height: 50px;
     margin-top: 50px;
-    
-  }
 
-  .main-index-flex{
+}
+
+.main-index-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 
-    }
+
+}
 
 /*Product page*/
 
-.product-image{
+.product-image {
     width: 65%;
 }
 
-.size-button{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+.size-button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
     border: none;
     background-color: black;
     color: white;
 }
 
-.size-button:hover{
+.size-button:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.cta-product{
+.cta-product {
     background-color: rgba(95, 173, 86, 1);
     border: none;
-    font-size: 26px;
+    font-size: 1.5rem;
     padding: 10px 30px;
     border-radius: 30px;
 }
 
-.cta-product:hover{
+.cta-product:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.article-product{
+.article-product {
     line-height: 30px;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 100;
     width: 65%;
 
 }
 
-.h1-product{
-    font-size: 36px;
+.h1-product {
+    font-size: 2.5rem;
     margin: 0;
 }
 
-.h2-product{
-    font-size: 30px;
+.h2-product {
+    font-size: 2rem;
 }
 
-.main-grid-product{
+.main-grid-product {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 7%;
 }
 
-.product-sizes-flex{
+.product-sizes-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
 }
 
-.buttons-container{
+.buttons-container {
     display: flex;
     flex-direction: row;
     width: 60%;
@@ -414,65 +415,197 @@ form label{
 
 /*Checkout page*/
 
-.checkout-input{
+.checkout-input {
     width: 300px;
 }
 
-.order-summary-section{
+.order-summary-section {
     border: 1px solid black;
     height: 40%;
     width: 80%;
     border-radius: 15px;
 }
 
-.summary-image{
+.summary-image {
     width: 30%;
 }
 
-.order-info{
+.order-info {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.h3-checkout{
+.h3-checkout {
     text-align: center;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
-    font-size: 28px;
+    font-size: 1.5rem;
 }
 
-.order-price{
+.order-price {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid black;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
-.jacket-info{
-    font-size: 20px;
+.jacket-info {
+    font-size: 1rem;
 }
 
-.jacket-price{
-    font-size: 24px;
+.jacket-price {
+    font-size: 1.5rem;
 }
 
-.cta-checkout{
+.cta-checkout {
     width: 30%;
     background-color: rgba(95, 173, 86, 1);
     color: black;
     padding: 10px 25px;
     text-align: center;
     border-radius: 20px;
+    font-size: 1.5rem;
+    margin-top: 15px;
 }
 
-.cta-checkout:hover{
+.cta-checkout:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.section-flex-checkout{
+.section-flex-checkout {
     display: flex;
     flex-direction: column;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+
+    footer {
+        flex-direction: column;
+        align-items: start;
+        height: auto;
+    }
+
+    footer ul {
+        font-size: 1rem;
+
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    footer h3{
+        font-size: 1.50rem;
+    }
+
+    .h1-about-us {
+        font-size: 2rem;
+    }
+
+    .h2-about-us {
+        font-size: 1.5rem;
+    }
+
+    .article-about-us {
+        font-size: 1rem;
+    }
+
+    .about-image {
+        height: 250px;
+    }
+
+    nav li {
+        font-size: 1.25rem;
+        display: block;
+    }
+
+    .cta-checkout-success {
+        font-size: 1rem;
+    }
+
+    .checkout-success-h1 {
+        font-size: 1.5rem;
+    }
+
+    .order-confirmation {
+        font-size: 1rem;
+    }
+
+    .h1-contact{
+        font-size: 1.5rem;
+    }
+
+    .h2-contact {
+        font-size: 1.2rem;
+    }
+
+    .form-input {
+        width: 15rem;
+    }
+
+    .grid-container-shop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-name-shop {
+        font-size: 1.5rem;
+    }
+
+    .product-price-shop {
+        font-size: 1.5rem;
+    }
+
+    .cta-shop {
+        font-size: 1.2rem;
+    }
+
+    .main-grid-product {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .cta-product {
+        font-size: 1.2rem;
+    }
+
+    .size-button {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .h1-product {
+        font-size: 2rem;
+    }
+
+    .h2-product {
+        font-size: 1.5rem;
+    }
+
+    .article-product {
+        font-size: 1rem;
+    }
+
+    .cta-checkout {
+        font-size: 1rem;
+    }
+
+    .h3-checkout {
+        font-size: 1.2rem;
+    }
+
+    .order-price {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
 }
