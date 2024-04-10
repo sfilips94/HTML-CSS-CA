@@ -43,7 +43,7 @@ a {
 }
 
 .logo {
-    width: 10%;
+    height: 100px;
 
 }
 
@@ -537,6 +537,7 @@ form label {
 
     .logo {
         width: 20%;
+        height: auto;
     }
 
     footer h3 {
@@ -657,6 +658,7 @@ form label {
 
     .logo {
         width: 25%;
+        height: auto;
     }
 
     footer h3 {
